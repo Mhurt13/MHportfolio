@@ -1,0 +1,67 @@
+.header {
+    background-color: #2F4B26;
+    padding: 20px;
+    color: azure;
+    list-style-type: none;
+    border-color: #C0D7BB;
+    border-style: solid;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.header div ul li {
+    float: right;
+    display: inline-block;
+    color: azure;
+
+}
+
+.box {
+    width: 50%;
+    height: 100px;
+    background-color: #C0D7BB;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #3E885B;
+    margin-bottom: 20px;
+    padding: 100px;
+}
+
+h2 {
+    text-align: center;
+    border-style: double;
+}
+
+.app {
+    justify-content: space-around;
+}
+
+body {
+    background-color: #BEDCFE;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+    float: right;
+}
+
+.app img {
+    padding: 15px;
+}
+
+.app img:hover {
+    height: 250px;
+    width: 250px;
+}
+
+@media handheld and (min-width: 20em), 
+  screen and (min-width: 20em)
